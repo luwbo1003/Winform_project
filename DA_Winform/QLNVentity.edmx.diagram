@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="969919949826491b8162afbbee9490bb" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="QLNVModel.ChucVu" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNVModel.KhenThuong" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNVModel.KyLuat" Width="1.5" PointX="5.25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNVModel.NhanVien" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNVModel.PhongBan" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNVModel.sysdiagram" Width="1.5" PointX="11.875" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNVModel.Taikhoan" Width="1.5" PointX="5.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNVModel.Luong" Width="1.5" PointX="1.75" PointY="19" IsExpanded="true" />
+        <AssociationConnector Association="QLNVModel.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNVModel.FK_KhenThuong_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNVModel.FK_KyLuat_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNVModel.FK__Taikhoan__MaNV__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNVModel.FK_Luong_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNVModel.FK_NhanVien_PhongBan" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QLNVModel.PhanQuyen" Width="1.5" PointX="0.75" PointY="8.375" />
+        <AssociationConnector Association="QLNVModel.FK_ChucVu_PhanQuyen" />
+        <EntityTypeShape EntityType="QLNVModel.KyCong" Width="1.5" PointX="6" PointY="6.75" />
+        <EntityTypeShape EntityType="QLNVModel.KyCongChiTiet" Width="1.5" PointX="8.25" PointY="10.75" />
+        <AssociationConnector Association="QLNVModel.FK_KyCongChiTiet_KyCong" />
+        <AssociationConnector Association="QLNVModel.FK_KyCongChiTiet_NhanVien" />
+        <EntityTypeShape EntityType="QLNVModel.BangCongChiTiet" Width="1.5" PointX="5.25" PointY="23.375" />
+        <AssociationConnector Association="QLNVModel.FK_BangCongChiTiet_NhanVien" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
